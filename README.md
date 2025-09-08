@@ -26,4 +26,4 @@ A Camera module takes a picture of the board. It then uploads the image to OpenA
 
 
 
-Note: This algorithm and detection code were written by @Eddy Zhou at https://github.com/eddyzow/Word-Hunter/. This is just a updated repo for all files.  
+Note: The algorithm and detection code uploaded were written by @Eddy Zhou at https://github.com/eddyzow/Word-Hunter/. This is just an updated repo for all files. The final code, which is not currently uploaded, was written by both Eddy and me, with me working on the control part (moving motors to pos, homing) and the algorithm to detect words given a list by Eddy.  
