@@ -5,6 +5,8 @@ A XY gantry system to play the GamePigeon game Word Hunt. Project for Hack Club 
 
 Cad file: https://cad.onshape.com/documents/58a2db96d60cbe98c4c1362c/w/5696988daa510935751d6292/e/5618d55c88ffba036bcec4c8?renderMode=0&uiState=6889818a7952d605cf46fb6e
 
+Demo video: https://www.youtube.com/shorts/yUHHStpDfnc
+
 A Camera module takes a picture of the board. It then uploads the image to OpenAI's 4o model to read and process the letters on the screen. The Python script then uses a dictionary file to generate the best words and their swipe paths, which is sent to the XY gantry system with two stepper motors holding an Apple Pencil to play the game.
 
 # Bill of Materials
@@ -26,4 +28,5 @@ A Camera module takes a picture of the board. It then uploads the image to OpenA
 
 
 
-Note: The algorithm and detection code uploaded were written by @Eddy Zhou at https://github.com/eddyzow/Word-Hunter/. This is just an updated repo for all files. The final code, which is not currently uploaded, was written by both Eddy and me, with me working on the control part (moving motors to pos, homing) and the algorithm to detect words given a list by Eddy.  
+Note: The algorithm and detection code uploaded were written by @Eddy Zhou at https://github.com/eddyzow/Word-Hunter/. This is just an updated repo for all files. The final code, which is not currently uploaded, was written by both Eddy and me, with me working on the control part (moving motors to pos, homing) and the algorithm to detect words given a list by Eddy.  Video by Eddy Z: https://www.youtube.com/watch?v=0T_SaNIKbn8
+
