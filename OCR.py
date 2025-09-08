@@ -1,3 +1,5 @@
+# Made by Eddy Zhou 
+
 import openai
 import cv2
 import base64
